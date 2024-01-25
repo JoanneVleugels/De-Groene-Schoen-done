@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(209, 250, 169);
+    background-image: url("../img/achtergrondgroen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+footer nav {
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(158, 190, 206);
+    border-radius: 5pc;
+    height: 12vh;
+}
+
+footer nav ul li {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.homeknop {
+    width: 17vw;
+    margin-top: 3em;
+}
+
+.mensenknop {
+    width: 15vw;
+    margin-top: 1.8em;
+}
+
+.plantenknop {
+    width: 16vw;
+    margin-top: 2.8em;
+}
+
+/*home*/
+
+body header section {
+    text-align: center;
+}
+
+body header section img{
+    width: 40em;
+    margin-top: 5em;
+}
+
+body header section h1 {
+    font-family: "bc-eric-machat-script", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 400%;
+    text-transform: uppercase;
+}
+
+main section img {
+    width: 58em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section h2 {
+    font-family: "bc-eric-machat-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main section div img {
+    width: 20em;
+    margin-bottom: -2em;
+    margin-top: 5em;
+}
+
+main p {
+    font-family: "omnes-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    margin-bottom: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+main.home section div p {
+    margin-bottom: 20em;
+}
+
+/*mensen*/
+
+header.mensen img {
+    width: 15em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+main.mensen section div img {
+    width: 27em;
+    margin-bottom: 1em;
+}
+
+main.mensen section h2 {
+    margin-top: -0.2em;
+    font-size: 150%;
+}
+
+main.mensen section h3 {
+    font-family: "bc-eric-machat-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 4em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+main.mensen section div p {
+    margin-bottom: 20em;
+}
+
+/*planten*/
+
+header.planten img {
+    width: 15em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+main.planten section div img {
+    width: 28em;
+    margin-top: 15em;
+}
+
+main.planten section div h2 {
+    font-size: 320%;
+    margin-top: 1em;
+}
+
+main.planten section div p {
+font-size: 95%;
+margin-bottom: 7em;
+}
+
+main.planten section {
+    display: flex;
+    margin-bottom: 15em;
+    margin-top: -15em;
+}
+
+main.planten section img {
+    width: 20em;
+    height: fit-content;
+}
+
+main.planten section h3 {
+    font-family: "bc-eric-machat-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 250%;
+    text-transform: uppercase;
+    margin: 3em;
+    text-align: center;
+}
+
